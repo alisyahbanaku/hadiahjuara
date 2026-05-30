@@ -1,0 +1,27 @@
+title: HadiahJuara
+description: Rekomendasi hadiah untuk berbagai occasion di Shopee Indonesia. Anniversary, ulang tahun, valentine, graduation — disesuaikan budget dan recipient.
+url: https://alisyahbanaku.github.io
+baseurl: /hadiahjuara
+author: Iqbal
+lang: id-ID
+timezone: Asia/Jakarta
+
+markdown: kramdown
+permalink: /:categories/:title/
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: review
+      author: Iqbal
+
+exclude:
+  - README.md
+  - .gitignore

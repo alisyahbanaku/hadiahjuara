@@ -1,0 +1,26 @@
+*{box-sizing:border-box}
+body{font-family:"Inter",system-ui,sans-serif;line-height:1.65;margin:0;color:#1a1a1a;background:#fefefe;font-weight:400}
+.container{max-width:680px;margin:0 auto;padding:1.5rem}
+.site-header{background:#fefefe;padding:1.5rem 0;border-bottom:1px solid #eee}
+.site-header .container{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:1rem}
+.brand{color:#1a1a1a;font-size:1.2rem;font-weight:700;text-decoration:none}
+nav a{color:#666;text-decoration:none;margin-left:1.5rem;font-size:.9rem;font-weight:500}
+nav a:hover{color:#dc2626}
+h1{font-size:2rem;margin:1.5rem 0 .5rem;line-height:1.3;font-weight:800;letter-spacing:-.02em}
+h2{font-size:1.4rem;margin-top:2.5rem;font-weight:700;letter-spacing:-.01em}
+h3{font-size:1.1rem;margin-top:1.5rem;font-weight:600}
+.breadcrumb{font-size:.8rem;color:#888;margin-bottom:.5rem}
+.lead{font-size:1.15rem;color:#555;margin:1rem 0 2rem}
+.meta{color:#888;font-size:.85rem;margin:1rem 0 2rem}
+.meta span{margin-right:1rem}
+.cta-button{display:inline-block;background:#1a1a1a;color:#fefefe;padding:.85rem 1.8rem;border-radius:6px;text-decoration:none;font-weight:600;font-size:.95rem;transition:all .2s}
+.cta-button:hover{background:#dc2626;transform:translateY(-1px)}
+.review-cta-bottom{background:#f8f8f8;padding:1.8rem;margin:2.5rem 0;text-align:center;border-radius:10px}
+.review-cta-bottom h3{margin-top:0}
+.review-faq details{margin:.8rem 0;padding:.8rem 1rem;background:#fafafa;border-radius:6px;cursor:pointer}
+.review-faq summary{font-weight:600;cursor:pointer}
+.site-footer{padding:2rem 0;margin-top:4rem;border-top:1px solid #eee;color:#888;font-size:.85rem;text-align:center}
+ul,ol{padding-left:1.5rem}li{margin:.3rem 0}
+table{border-collapse:collapse;width:100%;margin:1.5rem 0;font-size:.92rem}
+th,td{border-bottom:1px solid #eee;padding:.7rem;text-align:left}th{font-weight:600;background:#fafafa}
+a{color:#dc2626}
